@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Distributed AI-Powered Green Energy Microgrids by Greenlight Grid. Leveraging AI and IoT for decentralized energy management." name="description"/>
+  <meta content="Greenlight Grid, AI, IoT, green energy, microgrids, decentralized energy, battery storage, AI-driven control system" name="keywords"/>
+  <title>
+   Greenlight Grid - AI-Powered Green Energy Microgrids
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600&amp;display=swap" rel="stylesheet"/>
+  <script>
+   let imgWidth;
+    window.addEventListener('load', function() {
+      const img = new Image();
+      img.src = 'imgs/comingsoon.png';
+      img.onload = function() {
+        imgWidth = this.width;
+        adjustBackgroundSize();
+      };
+    });
+
+    window.addEventListener('resize', adjustBackgroundSize);
+
+    function adjustBackgroundSize() {
+      if (window.innerWidth > imgWidth) {
+        document.body.style.backgroundSize = '100% auto';
+      } else {
+        document.body.style.backgroundSize = 'auto';
+      }
+    }
+  </script>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <div class="header">
+   Greenlight Grid
+  </div>
+  <div class="additional-info-below-header">
+   <p>
+    Confused by energy jargon? Ever wondered what a kilowatt-hour on your bill means? You're not alone! For too long, the complex world of energy has been dominated by utility and energy companies, leaving most of us feeling lost.
+   </p>
+   <p>
+    That's about to change. Enter Greenlight Grids - your key to unlocking the world of renewable energy! Our user-friendly platform lets you buy, store, and even sell renewable energy seamlessly, whether connected to the main grid or off it.
+   </p>
+   <p>
+    It's time you took charge. Why let big companies have all the fun? With Greenlight Grids, you're not just saving the planet, you're also profiting from it!
+   </p>
+  </div>
+  <footer>
+   <!-- Add footer content such as contact information, social media links, etc. -->
+  </footer>
+  <script type="text/javascript">
+   <script type="text/javascript">
+  window.addEventListener('load', function() {
+    var headerDiv = document.querySelector('.header');
+    var newDiv = document.querySelector('.additional-info-below-header');
+    if (headerDiv && newDiv) {
+      newDiv.style.width = getComputedStyle(headerDiv).width;
+    }
+  });
+</script>
+  </script>
+ </body>
+</html>

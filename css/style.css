@@ -1,0 +1,63 @@
+
+/* CSS for aligning the header and additional-info divs */
+
+.header, .additional-info {
+  width: 100%; /* Example width, this should be adjusted as needed */
+  margin: 0 auto; /* Centering the divs */
+  padding: 15px; /* Padding for better appearance */
+}
+.additional-info {}
+
+
+   body {
+      margin: 0;
+      padding: 0;
+      background-color: #E8FFCB;
+      background-image: url('../imgs/comingsoon.png');
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Gabarito', sans-serif;
+    }
+    @media (max-width: 768px) {
+      body {
+        background-position-x: 85%;  /* Shifted to the right by 25% */
+      }
+    }
+    .header {
+      text-align: center;
+      font-weight: 600;
+      font-size: 96px;
+      margin-top: 50px;
+      color: #40875D;
+    }
+.additional-info-below-header p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20pt;
+    text-align: left;
+    color: inherit;  /* To inherit the color from the header */
+}
+
+.additional-info-below-header {
+    width: 100%;  /* Set the width to 100% to match that of the header */
+}
+
+.additional-info-below-header {
+    width: 100%;  /* Set the width to match that of the header */
+}
+
+.additional-info-below-header {
+    width: 50%;  /* Set the width to be half of the page */
+}
+
+.additional-info-below-header {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .additional-info-below-header p {
+        font-size: 16pt;  /* Reduced font size for smaller screens */
+    }
+}
